@@ -1,6 +1,10 @@
 # bundle-test
 
-1. Clone the repo;
-2. Create your page in `/src/App.js`;
-3. Run `yarn start` for development;
-4. Run `yarn build` to build project, grab the `index.html` and `main.js` from `dist` folder.
+`react`, `emotion` and `@spokeo/styleguide` are included.
+
+To use it:
+1. clone it;
+2. `yarn install` & `yarn start` for local dev;
+3. create your page or section in `/src/App.js`;
+4. sample data is accessible globally via variable `data`;
+5. If you’re satisfy with the result, run `yarn build` to generate the bundled html & js. (They are `index.html` and `main.js` in `/dist` folder). 
